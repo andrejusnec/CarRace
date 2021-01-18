@@ -46,11 +46,6 @@ public class CarRace {
             }
         }
         System.out.println("**********************");
-        for (int x = 0; x < cars.length; x++) {
-            //kilometrai[x].nuvaziavoKm = cars[x].nuvaziavoKm;
-            System.out.println(cars[x].nuvaziavoKm);
-        }
-
         //masyvo surusiavimas didejimo tvarka
         for (int j = 0; j < cars.length; j++) {
             for (int x = j + 1; x < cars.length; x++) {
